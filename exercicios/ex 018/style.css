@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+p {
+    font-family: "Courgette", cursive;
+    font-family: "Gloria Hallelujah", cursive;
+    font-family: "Pacifico", cursive;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+main {
+    background-color: rgb(25, 251, 127);
+}
+
+h1 {
+    text-align: center;
+}

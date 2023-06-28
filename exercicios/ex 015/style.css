@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+body {
+    background-color:#23B7D9;
+    ont-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+h1 {
+    color:#BF3475;
+    background-color:#0B79D9;
+    text-align: center;
+}
+
+p {
+    text-align:justify;
+}
+
+h2 {
+    color:#D95A2B;
+    
+   
+}

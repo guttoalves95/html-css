@@ -1,0 +1,15 @@
+h1{
+    background-color: rgb(193, 238, 238);
+    text-align: center;
+}
+ol{
+    background-color: rgb(221, 168, 168);
+    text-align:left;
+}
+h2{
+    background-color: rgb(169, 169, 246);
+    text-align: center;
+}
+hr{
+    background-color: blueviolet;
+}

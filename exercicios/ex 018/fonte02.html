@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes externas</title>
+    <style>
+      @font-face {
+        font-family: "gusta";
+        src: url("BiggyJohn.ttf") format(truetype);
+        font-weight: normal;
+        font-style: normal;
+      }
+      /*tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat(Apple Advanced Typography)
+        - svg
+        */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(42, 130, 165);
+      }
+      h1 {
+        font-family: gusta, Helvetica, sans-serif;
+        font-size: 3em;
+        font-weight: normal;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Seja bem vindo!</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consequatur
+      officia, aut placeat, aspernatur fugiat saepe distinctio odio vero
+      deleniti commodi quis dolor alias? Dolore error excepturi ad voluptatem
+      placeat?
+    </p>
+    <h2>Subtitulo</h2>
+    <ol>
+      <li>guto</li>
+    </ol>
+  </body>
+</html>
